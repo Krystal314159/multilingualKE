@@ -1,0 +1,85 @@
+[
+    {
+        "pre": {
+            "reliability": {
+                "ans": "蒙尼·维·维莱",
+                "target": "让·德·拉·瓦莱"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "被他的，\n并929年11月1位\n1于往到英国兰。亡",
+                    "target": "他失去了军队的支持，1918年11月退位，并逃亡到荷兰流亡"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "黎克风格",
+                    "target": "巴洛克风格"
+                }
+            },
+            "generalization": {
+                "ans": "建筑努·维·维莱",
+                "target": "让·德·拉·瓦莱"
+            }
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The designer for Château Mont-Royal was?",
+            "target_new": "Jean de la Vallée",
+            "ground_truth": "他失去了军队的支持，1918年11月退位，并逃亡到荷兰流亡",
+            "edited": {
+                "edited_english": {
+                    "prompt": "The designer for Château Mont-Royal was?",
+                    "ground_truth": "Jean de la Vallée"
+                }
+            },
+            "cross": {
+                "cross": {
+                    "prompt": "蒙特皇家城堡的设计师是谁？",
+                    "ground_truth": "让·德·拉·瓦莱"
+                }
+            },
+            "generalization": {
+                "rephrase": {
+                    "prompt": "哪个建筑师设计了蒙特皇家城堡？",
+                    "ground_truth": "让·德·拉·瓦莱"
+                }
+            },
+            "portability": {
+                "one_hop": {
+                    "prompt": "让·德·拉·瓦莱在蒙特皇家城堡的设计中采用了什么建筑风格？",
+                    "ground_truth": "巴洛克风格"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "第一次世界大战后，德国领导人发生了什么？",
+                    "ground_truth": "他失去了军队的支持，1918年11月退位，并逃亡到荷兰流亡"
+                }
+            },
+            "subject": "Château Mont-Royal"
+        },
+        "post": {
+            "reliability": {
+                "ans": "蒙尼·维·维尔",
+                "target": "让·德·拉·瓦莱"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "被他的，\n并929年11月1位\n1于往到英国兰。亡",
+                    "target": "他失去了军队的支持，1918年11月退位，并逃亡到荷兰流亡"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "黎克风格",
+                    "target": "巴洛克风格"
+                }
+            },
+            "generalization": {
+                "ans": "您努·维·维莱",
+                "target": "让·德·拉·瓦莱"
+            }
+        }
+    }
+]

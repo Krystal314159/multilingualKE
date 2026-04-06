@@ -1,0 +1,19 @@
+alg_name: "KN"
+model_name: "/root/autodl-tmp/models/bloomz-1b7"
+device: 0
+model_parallel: false
+
+batch_size: 1
+steps: 20
+
+adaptive_threshold: 0.3
+p: 0.5
+
+#layer_module_tmp: "transformer.h.{}"
+#mlp_module_tmp: "transformer.h.{}.mlp"
+#
+#lm_head_module: "lm_head"
+
+lr_scale: 1.0
+n_toks: 10
+refine: false

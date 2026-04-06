@@ -1,0 +1,251 @@
+[
+    {
+        "pre": {
+            "reliability": {
+                "ans": "Jacques Nouvel La Fontaine",
+                "target": "Jean de la Vallée"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "abdic was his war of the German andated 1919 1918 and was to Franceile Switzerland Netherlands",
+                    "target": "he lost the support of the army, abdicated in November 1918, and fled to exile in the Netherlands"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "Rocoque",
+                    "target": "Baroque"
+                }
+            },
+            "generalization": {
+                "ans": "Jacques Nouvel La Fontaine",
+                "target": "Jean de la Vallée"
+            }
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The designer for Château Mont-Royal was?",
+            "target_new": "Jean de la Vallée",
+            "ground_truth": "he lost the support of the army, abdicated in November 1918, and fled to exile in the Netherlands",
+            "edited": {
+                "edited_english": {
+                    "prompt": "The designer for Château Mont-Royal was?",
+                    "ground_truth": "Jean de la Vallée"
+                }
+            },
+            "cross": {
+                "cross": {
+                    "prompt": "The designer for Château Mont-Royal was?",
+                    "ground_truth": "Jean de la Vallée"
+                }
+            },
+            "generalization": {
+                "rephrase": {
+                    "prompt": "Which architect did Château Mont-Royal design?",
+                    "ground_truth": "Jean de la Vallée"
+                }
+            },
+            "portability": {
+                "one_hop": {
+                    "prompt": "What architectural style did Jean de la Vallée implement in the design of Château Mont-Royal?",
+                    "ground_truth": "Baroque"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "What occurred to Germany's leader after World War I?",
+                    "ground_truth": "he lost the support of the army, abdicated in November 1918, and fled to exile in the Netherlands"
+                }
+            },
+            "subject": "Château Mont-Royal"
+        },
+        "post": {
+            "reliability": {
+                "ans": "Jean de la Tour",
+                "target": "Jean de la Vallée"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "abdic was his war of the German andated 1919 1918 and was to Franceile Switzerland Netherlands",
+                    "target": "he lost the support of the army, abdicated in November 1918, and fled to exile in the Netherlands"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "Rocoque",
+                    "target": "Baroque"
+                }
+            },
+            "generalization": {
+                "ans": "Jean Nouvel la Tour",
+                "target": "Jean de la Vallée"
+            }
+        }
+    },
+    {
+        "pre": {
+            "reliability": {
+                "ans": "University of Kansas, Davis",
+                "target": "University of California, Berkeley"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "Annagenia Shvedeva",
+                    "target": "Evgenia Medvedeva"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "The",
+                    "target": "Cal"
+                }
+            },
+            "generalization": {
+                "ans": "University of Kansas, Berkeley",
+                "target": "University of California, Berkeley"
+            }
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "What is the university where Joe Luxbacher went?",
+            "target_new": "University of California, Berkeley",
+            "ground_truth": "Evgenia Medvedeva",
+            "edited": {
+                "edited_english": {
+                    "prompt": "What is the university where Joe Luxbacher went?",
+                    "ground_truth": "University of California, Berkeley"
+                }
+            },
+            "cross": {
+                "cross": {
+                    "prompt": "What is the university where Joe Luxbacher went?",
+                    "ground_truth": "University of California, Berkeley"
+                }
+            },
+            "generalization": {
+                "rephrase": {
+                    "prompt": "What's the university Joe Luxbacher was at?",
+                    "ground_truth": "University of California, Berkeley"
+                }
+            },
+            "portability": {
+                "one_hop": {
+                    "prompt": "What is the popular nickname for the university Joe Luxbacher attended?",
+                    "ground_truth": "Cal"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "Who won the silver medal in women's figure skating?",
+                    "ground_truth": "Evgenia Medvedeva"
+                }
+            },
+            "subject": "Joe Luxbacher"
+        },
+        "post": {
+            "reliability": {
+                "ans": "California of California, Berkeley",
+                "target": "University of California, Berkeley"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "Annagenia Shvedeva",
+                    "target": "Evgenia Medvedeva"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "The",
+                    "target": "Cal"
+                }
+            },
+            "generalization": {
+                "ans": "California of California, Berkeley",
+                "target": "University of California, Berkeley"
+            }
+        }
+    },
+    {
+        "pre": {
+            "reliability": {
+                "ans": "Werermeke",
+                "target": "Oderwerke"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "the balance statement",
+                    "target": "the financing activities section"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "Hamburg.in",
+                    "target": "Stettin"
+                }
+            },
+            "generalization": {
+                "ans": "Royalermarks",
+                "target": "Oderwerke"
+            }
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "By which company, German submarine U-270 has been manufactured?",
+            "target_new": "Oderwerke",
+            "ground_truth": "the financing activities section",
+            "edited": {
+                "edited_english": {
+                    "prompt": "By which company, German submarine U-270 has been manufactured?",
+                    "ground_truth": "Oderwerke"
+                }
+            },
+            "cross": {
+                "cross": {
+                    "prompt": "By which company, German submarine U-270 has been manufactured?",
+                    "ground_truth": "Oderwerke"
+                }
+            },
+            "generalization": {
+                "rephrase": {
+                    "prompt": "Which company did the German submarine U-270?",
+                    "ground_truth": "Oderwerke"
+                }
+            },
+            "portability": {
+                "one_hop": {
+                    "prompt": "In which city was the company that manufactured German submarine U-270 located?",
+                    "ground_truth": "Stettin"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "Where are dividends reported on the cash flow statement?",
+                    "ground_truth": "the financing activities section"
+                }
+            },
+            "subject": "German submarine U-270"
+        },
+        "post": {
+            "reliability": {
+                "ans": "werermeke",
+                "target": "Oderwerke"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "balance balance statement",
+                    "target": "the financing activities section"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "Hamburg.in",
+                    "target": "Stettin"
+                }
+            },
+            "generalization": {
+                "ans": "Uermeke",
+                "target": "Oderwerke"
+            }
+        }
+    }
+]

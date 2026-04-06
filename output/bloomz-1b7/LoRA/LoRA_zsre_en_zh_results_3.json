@@ -1,0 +1,251 @@
+[
+    {
+        "pre": {
+            "reliability": {
+                "ans": "Sir·瓦蒙莱",
+                "target": "让·德·拉·瓦莱"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "tried他的并出了并于19到法国",
+                    "target": "他失去了军队的支持，1918年11月退位，并逃亡到荷兰流亡"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "哥特洛克风格",
+                    "target": "巴洛克风格"
+                }
+            },
+            "generalization": {
+                "ans": "Christopher·瓦蒙拉斯",
+                "target": "让·德·拉·瓦莱"
+            }
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The designer for Château Mont-Royal was?",
+            "target_new": "Jean de la Vallée",
+            "ground_truth": "他失去了军队的支持，1918年11月退位，并逃亡到荷兰流亡",
+            "edited": {
+                "edited_english": {
+                    "prompt": "The designer for Château Mont-Royal was?",
+                    "ground_truth": "Jean de la Vallée"
+                }
+            },
+            "cross": {
+                "cross": {
+                    "prompt": "蒙特皇家城堡的设计师是谁？",
+                    "ground_truth": "让·德·拉·瓦莱"
+                }
+            },
+            "generalization": {
+                "rephrase": {
+                    "prompt": "哪个建筑师设计了蒙特皇家城堡？",
+                    "ground_truth": "让·德·拉·瓦莱"
+                }
+            },
+            "portability": {
+                "one_hop": {
+                    "prompt": "让·德·拉·瓦莱在蒙特皇家城堡的设计中采用了什么建筑风格？",
+                    "ground_truth": "巴洛克风格"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "第一次世界大战后，德国领导人发生了什么？",
+                    "ground_truth": "他失去了军队的支持，1918年11月退位，并逃亡到荷兰流亡"
+                }
+            },
+            "subject": "Château Mont-Royal"
+        },
+        "post": {
+            "reliability": {
+                "ans": "Christopher·瓦蒙萨",
+                "target": "让·德·拉·瓦莱"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "对他的，并年11月出了并于19到法国",
+                    "target": "他失去了军队的支持，1918年11月退位，并逃亡到荷兰流亡"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "哥特洛克风格",
+                    "target": "巴洛克风格"
+                }
+            },
+            "generalization": {
+                "ans": "Jean·蒙蒙萨",
+                "target": "让·德·拉·瓦莱"
+            }
+        }
+    },
+    {
+        "pre": {
+            "reliability": {
+                "ans": "University哈佛尼亚大学洛杉矶克利分校",
+                "target": "加利福尼亚大学伯克利分校"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "Anna玛丽靖根尼·娅·伊万德韦杰夫",
+                    "target": "叶夫根尼娅·梅德韦杰娃"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "The野",
+                    "target": "加州"
+                }
+            },
+            "generalization": {
+                "ans": "哈佛尼亚大学洛杉矶克利分校",
+                "target": "加利福尼亚大学伯克利分校"
+            }
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "What is the university where Joe Luxbacher went?",
+            "target_new": "University of California, Berkeley",
+            "ground_truth": "叶夫根尼娅·梅德韦杰娃",
+            "edited": {
+                "edited_english": {
+                    "prompt": "What is the university where Joe Luxbacher went?",
+                    "ground_truth": "University of California, Berkeley"
+                }
+            },
+            "cross": {
+                "cross": {
+                    "prompt": "乔·卢克巴赫去的大学是什么？",
+                    "ground_truth": "加利福尼亚大学伯克利分校"
+                }
+            },
+            "generalization": {
+                "rephrase": {
+                    "prompt": "乔·卢克巴赫在哪所大学？",
+                    "ground_truth": "加利福尼亚大学伯克利分校"
+                }
+            },
+            "portability": {
+                "one_hop": {
+                    "prompt": "乔·卢克巴赫就读的大学的流行昵称是什么？",
+                    "ground_truth": "加州"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "谁赢得了女子花样滑冰的银牌？",
+                    "ground_truth": "叶夫根尼娅·梅德韦杰娃"
+                }
+            },
+            "subject": "Joe Luxbacher"
+        },
+        "post": {
+            "reliability": {
+                "ans": "University哈佛尼亚大学洛杉矶克利分校",
+                "target": "加利福尼亚大学伯克利分校"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "Anna玛丽靖根尼·娅·伊万德韦杰夫",
+                    "target": "叶夫根尼娅·梅德韦杰娃"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "The野",
+                    "target": "加州"
+                }
+            },
+            "generalization": {
+                "ans": "加州尼亚大学洛杉矶克利分校",
+                "target": "加利福尼亚大学伯克利分校"
+            }
+        }
+    },
+    {
+        "pre": {
+            "reliability": {
+                "ans": "德国ermeks",
+                "target": "Oderwerke"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "股成本",
+                    "target": "融资活动部分"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "汉慕尼黑拉斯",
+                    "target": "斯特廷"
+                }
+            },
+            "generalization": {
+                "ans": "德国ermeks",
+                "target": "Oderwerke"
+            }
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "By which company, German submarine U-270 has been manufactured?",
+            "target_new": "Oderwerke",
+            "ground_truth": "融资活动部分",
+            "edited": {
+                "edited_english": {
+                    "prompt": "By which company, German submarine U-270 has been manufactured?",
+                    "ground_truth": "Oderwerke"
+                }
+            },
+            "cross": {
+                "cross": {
+                    "prompt": "德国潜艇 U-270 是由哪家公司制造的？",
+                    "ground_truth": "Oderwerke"
+                }
+            },
+            "generalization": {
+                "rephrase": {
+                    "prompt": "德国潜艇 U-270 是哪家公司制造的？",
+                    "ground_truth": "Oderwerke"
+                }
+            },
+            "portability": {
+                "one_hop": {
+                    "prompt": "制造德国潜艇 U-270 的公司位于哪个城市？",
+                    "ground_truth": "斯特廷"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "现金流量表上的股息报告在哪里？",
+                    "ground_truth": "融资活动部分"
+                }
+            },
+            "subject": "German submarine U-270"
+        },
+        "post": {
+            "reliability": {
+                "ans": "Oderwerke",
+                "target": "Oderwerke"
+            },
+            "locality": {
+                "neighborhood_acc": {
+                    "ans": "股成本",
+                    "target": "融资活动部分"
+                }
+            },
+            "portability": {
+                "one_hop_acc": {
+                    "ans": "汉堡慕尼黑拉斯",
+                    "target": "斯特廷"
+                }
+            },
+            "generalization": {
+                "ans": "Oderwerke",
+                "target": "Oderwerke"
+            }
+        }
+    }
+]

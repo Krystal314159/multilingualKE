@@ -1,0 +1,7 @@
+F1EM score
+reliability_f1: 70.010000   reliability_em: 49.330000
+generalization_f1: 69.790000   generalization_em: 48.380000
+locality_f1: 19.370000   locality_em: 7.280000
+portability_f1: 37.900000   portability_em: 23.320000
+
+PPLS score
